@@ -1,9 +1,9 @@
 print("Finding the roots of a quadratic equation!")
 print("Insert the equation's terms in the order of their degrees and follow the instructions.")
 import math
-a=int(input("Insert the first term's coefficient: "))
-b=int(input("Insert the first term's coefficient: "))
-c=int(input("Insert the first term's coefficient: "))
+a=int(input("Enter the first term's coefficient: "))
+b=int(input("Enter the second term's coefficient: "))
+c=int(input("Enter the third term's coefficient: "))
 delta=b**2-4*a*c
 if delta>0:
   deltaroot=math.sqrt(delta)
